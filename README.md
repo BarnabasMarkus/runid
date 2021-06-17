@@ -40,7 +40,7 @@ Next time you get the incremented value of the last saved runid
 ```
 
 
-Next time you get the incremented value of the last saved runid
+If you want to **reset** the runid do this
 ```python
 >>> from runid import RunId
 >>>
@@ -53,7 +53,7 @@ Next time you get the incremented value of the last saved runid
 ```
 
 
-Run ID use the file `runid.stored` as a default storage. You can change it anytime you want.
+Run ID use the file `runid.stored` as a default **storage**. You can change it anytime you want.
 ```python
 >>> from runid import RunId
 >>>
