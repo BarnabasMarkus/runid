@@ -30,7 +30,7 @@ Using Run ID is as simple as
 ```
 
 
-Next time you get the incremented value of the last saved runid
+Next time you get the incremented value of the last saved Run ID
 ```python
 >>> from runid import RunId
 >>>
@@ -40,7 +40,17 @@ Next time you get the incremented value of the last saved runid
 ```
 
 
-If you want to **reset** the runid do this
+How can I **change the default Run ID**, which is 1?
+```python
+>>> from runid import RunId
+>>> 
+>>> x = RunId(runid=9)
+>>> print(x.runid)
+9
+```
+
+
+If you want to **reset** the Run ID do this
 ```python
 >>> from runid import RunId
 >>>
@@ -61,4 +71,24 @@ Run ID use the file `runid.stored` as a default **storage**. You can change it a
 ```
 DANGER! If for some reason you use two runids at the same time,  
 never forget to change the default storage path, otherwise one variable will overwrite the other.
+
+
+Show Run ID **object summary** for human beings
+```python
+>>> from runid import RunId
+>>> 
+>>> x = RunId(path='file.runid', runid=13)
+>>> print(x)
+RunId (13) stored @ file.runid
+```
+
+
+... and machines
+```python
+>>> from runid import RunId
+>>> 
+>>> x = RunId(path='file.runid', runid=13)
+>>> print(repr(x))
+RunId(path='file.runid', runid=13)
+```
 
