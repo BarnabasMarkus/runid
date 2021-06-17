@@ -73,7 +73,7 @@ DANGER! If for some reason you use two runids at the same time,
 never forget to change the default storage path, otherwise one variable will overwrite the other.
 
 
-Show Run ID **object summary** for human beings
+Show Run ID **object summary** for human beings...
 ```python
 >>> from runid import RunId
 >>> 
