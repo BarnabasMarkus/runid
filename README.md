@@ -8,6 +8,11 @@ it is super handy if, for example, you want to know how many times a particular 
 `pip install joblib`
 
 
+### Installation
+
+`pip install git+https://github.com/BarnabasMarkus/runid.git`
+
+
 ### API
 
 **RunId.runid** _**(self, path='runid.stored', runid=None)**_
