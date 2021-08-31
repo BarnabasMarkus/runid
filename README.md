@@ -12,7 +12,7 @@ it is super handy if, for example, you want to know how many times a particular 
 
 **RunId.runid** _**(self, path='runid.stored', runid=None)**_
 
-Paramterer | Type | Default | Description
+Parameter | Type | Default | Description
 ------------ | ------------- | ------------- | -------------
 **path** | *str* | *'runid.stored'* | The path of the file which contains the Run ID
 **runid** | *int* | *1* | Value of the currrent Run ID
